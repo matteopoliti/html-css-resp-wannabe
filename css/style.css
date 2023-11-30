@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 70%;
+    width: 1160px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -127,13 +127,13 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .container{
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 480px){
     .container{
         width: 90%;
     }
@@ -163,5 +163,11 @@ img {
     .why-us li {
         list-style: none;
         margin-block: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1160px){
+    .container{
+        width: 100vw;
     }
 }
